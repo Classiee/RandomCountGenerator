@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+    text-align: center;
+    background-color: #a02020;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+    
+}
+
+#output {
+    container-type: text;
+    border: solid 1px #00ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00ff00;
+    width: 400px;
+    transform:initial;
+    text-decoration: underline;
+    /* -webkit-line-clamp: 20; */
+}
+#firstNumber {
+    border: solid 1px rgb(255, 255, 255);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: #f1f1f1; 
+    color: #f1f1f1;
+}
+
+#counter {
+    border: solid 1px rgb(255, 255, 255);
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: #f1f1f1; 
+    color: #f1f1f1;
+}
+
+#secondNumber {
+    container-type: text;
+    border: solid 1px rgb(255, 255, 255);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1f1;
+    
+}
+
+#buttons {
+    background-color: #e02828;
+    border: solid 2px black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
